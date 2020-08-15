@@ -1,0 +1,41 @@
+body {
+   font-family: calibri;
+   margin: 0;
+}
+.container {
+   /* margin: 20vh; */
+   /* padding: 0.5vh 0.5vw 0.5vh 0.5vw; */
+   display: grid;
+   /* grid-template-columns: repeat(1, minmax(min-content, 200px)); */
+   /* grid-template-rows: repeat(4, minmax(min-content, 200px)); */
+   grid-auto-flow: row;
+   grid-gap: 1px;
+   border: solid 1px blue;
+   border-radius: 3px;
+   min-height: calc(100vh - 40px);
+   /* height: 80vh; */
+   justify-content: center;
+   align-content: center;
+}
+.box {
+   border: black 1px solid;
+   margin: 1px;
+   height: 100px;
+   width: 200px;
+   display: flex;
+}
+.one {
+   background: linear-gradient(90deg, red, #123123);
+}
+.two {
+   background: linear-gradient(90deg, green, #51946f);
+}
+.three {
+   background: linear-gradient(90deg, blue, #375373);
+}
+.four {
+   background: linear-gradient(90deg, yellow, #f13128);
+}
+.five {
+   background: linear-gradient(90deg, black, #2135b8);
+}
