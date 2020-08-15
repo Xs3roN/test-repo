@@ -39,3 +39,6 @@ body {
 .five {
    background: linear-gradient(90deg, black, #2135b8);
 }
+.six {
+   background: linear-gradient(90deg, white, #b8219f);
+}
